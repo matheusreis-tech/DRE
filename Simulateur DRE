@@ -1,0 +1,48 @@
+#calculadora de taxas de aliquota
+
+print '-----------------------------------------------------------------------'
+print '| Emulador de Demonstracao de resultado de exercicio       REIS,Matheus|'
+print '|______________________________________________________________________|'
+print '|______________________________________________________________________|'
+print '|______________________________________________________________________|'
+print '|______________________________________________________________________|'
+print '|27/04/2020____________________________________________________________|'
+taxa1 = raw_input('Qual foi a receita das vendas ? ')
+print '________________________________________________________________________'
+print '|                                                                      |'
+taxa2 = raw_input('| Qual foi o tributo sobre as vendas ? ')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+print '|                                                                      |'
+taxa3 = raw_input('| Quais e o valor das devolucoes e abatimentos ? ')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+taxa4 = raw_input('| Qual foi o custo dos produtos ? ')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+taxa5 = raw_input('| Quais sao as despesas com salarios,publicidade e distribuicao ? ')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+taxa6 = raw_input('| Quais despesas com materiais, impostos,taxas e honorarios ? ')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+taxa7 = raw_input('| Quais sao os valores recebidos de lucro de venda de ativos ?')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+taxa8 = raw_input('| Qual e o valor dos juros das aplicacoes ? ')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+taxa9 = raw_input('| Quais e o valor dos juros pagos ? ')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+taxa10 = raw_input('| Qual e o valor do imposto de renda e analogos ? ')
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+total = float(taxa1) + float(taxa7) + float(taxa8) - (float(taxa2) + float(taxa3) + float(taxa4) + float(taxa5) + float(taxa6) + float(taxa9) + float(taxa10))  
+print '------------------------------------------------------------------------'
+print 'Resultado contabil = R$ %s.' % total
+print '|                                                                      |'
+print '|______________________________________________________________________|'
+media = total
+print '------------------------------------------------------------------------'
+print '------------------------------------------------------------------------'
